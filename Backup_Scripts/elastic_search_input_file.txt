@@ -24,37 +24,37 @@ host=172.20.0.5
 backup_location=LF
 
 #Please enter the Backup name(SNAPSHOT name) you want to take
-snapshot_name=fosfor_snapshot
+snapshot_name=
 
 #Please enter the Repository name you want to take
-repo_name=fosfor_repo
+repo_name=
 
 #Please specify the folder name in which you want to save your ES backup files
 folder_name="final_es_backup_folder"
 
 #Please specify the bucket name
-Bucket_Name=mosaic-packages
+Bucket_Name=
 
 #Please specify the folder name
-Folder_Name=infra
+Folder_Name=
 
 #Please specify the sub-folder name if any
 Sub_Folder_Name=Gitlab_backup_files/
 
 #Pleaes specify the AWS access_key
-AWS_ACCESS_KEY_ID=AKIARZWAXCM2ABUCW4NH
+AWS_ACCESS_KEY_ID=
 
 #Please specify the AWS secret access key
-AWS_SECRET_ACCESS_KEY=i6287iBdmd3EVd/lVNnGInfAk4thXg7NDqbufF1I
+AWS_SECRET_ACCESS_KEY=
 
 #Please Enter the PRIVATE IP address of the server where you want to migrate backup
-host_ip_of_server2=172.23.12.4
+host_ip_of_server2=
 
 #Please Enter the user-name of the server
-host_user_of_server2=maxiq
+host_user_of_server2=
 
 #Please Enter the Password of the server
-host_password_of_server2=Maxiq@123456
+host_password_of_server2=
 
 #Please specify the path where you want to move backup
 path_where_you_want_to_move_backup=/app/transfer_backup
