@@ -1,0 +1,62 @@
+################################################################################
+################################################################################
+###########################Please don't change these values#####################
+
+#Please give name to a variable to store /app directory
+dir="/app"
+
+#Path of elasticsearch yml
+path_of_elastic_search_directory=/etc/elasticsearch
+
+#path of directory where all the tar files of backup store after taking backup from 1st server to this server
+path_of_directory_where_all_backup_tar_files_present=/app/transfer_backup
+
+#If user wants to download files from S3 it will store files in below folder having location /app/folder_name_to_pull_backup_files
+folder_name_to_pull_backup_files=pull_backups
+
+#################################################################################
+#################################################################################
+#################################################################################
+#################################################################################
+
+#Please Enter the PRIVATE IP address of the server where ElasticSearch installed
+host=
+
+#Use S3 if you want to store backup on S3, Use LF if you want to store in local file system
+backup_location=LF
+
+#Please enter the Backup name(SNAPSHOT name) you want to take
+snapshot_name=fosfor_snapshot
+
+#Please enter the Repository name you want to take
+repo_name=fosfor_repo
+
+
+#specify the folder name where backup moves and restore script play with this folder
+final_es_backup_folder=final_folder
+
+
+#Please specify the bucket name
+Bucket_Name=mosaic-packages
+
+#Please specify the folder name
+Folder_Name=infra
+
+#Please specifty the sub-folder name if any
+Sub_Folder_Name=Gitlab_backup_files/
+
+#Pleaes specify the AWS access_key
+AWS_ACCESS_KEY_ID=
+
+#Please specify the AWS secret access key
+AWS_SECRET_ACCESS_KEY=
+
+#Please specify Yes if you want to take backup
+Backup=
+
+#Please specify Yes if you want to Pull backup file from S3
+Pull=
+
+#Please specify Yes if you want to Pull backup file from S3
+Restore=yes
+
